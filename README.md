@@ -6,3 +6,4 @@
 - Implement it so that users can log in using bcrypt.
 - Implement API functions so that collected data can be sent to the outside world.
 - Implement a stable project through load tests.
+- node_module is not included.
