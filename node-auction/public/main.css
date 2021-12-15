@@ -1,0 +1,139 @@
+* { box-sizing: border-box; }
+@font-face {
+  font-family: "jua";
+  src : url("font/BMJUA_ttf.ttf") format("truetype");
+}
+#title {
+  margin-left: 150px;
+  font-size: 30px;
+  font-family: "jua";
+  color: green;
+}
+#no_sell {
+  margin-left: 110px;
+  font-size: 20px;
+  font-family: "jua";
+  color: #FC8600;
+}
+#bid {
+  margin-top: 100px;
+  font-size: 20px;
+  font-family: "jua";
+  color: green;
+}
+#bid-form {
+  margin-left: 20px;
+  margin-top: 100px;
+  font-size: 20px;
+  font-family: "jua";
+  color: green;
+}
+#good_name{
+  font-family:"jua";
+  text-align: center;
+}
+html, body { 
+  margin: 0; 
+  padding: 0; 
+  height: 100%; 
+  width: 100%;
+	font-family: jua; 
+  background-image: url('img/pumpkin2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.btn {
+  display: inline-block;
+  padding: 0 5px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 4px;
+  background: yellow;
+  border: 1px solid silver;
+	color: #FC8600;
+  height: 40px;
+  line-height: 37px;
+  vertical-align: top;
+  font-size: 15px;
+  font-family: "jua";
+}
+.select_btn {
+  display: inline-block;
+  padding: 0 5px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 4px;
+  background: white;
+  border: 1px solid silver;
+  color: red;
+  height: 37px;
+  line-height: 37px;
+  vertical-align: top;
+  font-size: 12px;
+  font-family: "jua";
+}
+input, textarea {
+  border-radius: 4px;
+  height: 50px;
+  padding: 10px;
+  border: 2px solid;
+  font-family: "jua";
+}
+.container { width: 100%; height: 100%; }
+@media screen and (min-width: 800px) {
+  .container { width: 800px; margin:0 auto; }
+}
+.input-group { margin-bottom: 15px; }
+.input-group label { width: 25%; display: inline-block; }
+.input-group input { width: 70%;}
+#join { float: right; }
+.profile-wrap {
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px 0px;
+  margin-right: 30px;
+  font-family: "jua";
+}
+@media screen and (min-width: 800px) {
+  .profile-wrap { width: 240px; margin-bottom: 0; }
+}
+.profile {
+  height: 215px;
+  text-align: left;
+  padding: 10px;
+  margin-right: 5px;
+  border-radius: 10px;
+  border: 1px solid silver;
+  background: green;
+  font-family: "jua";
+  line-height: 2em;
+  color: white;
+}
+.user-name, .user-money {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: white;
+  font-family: "jua";
+}
+.timeline {
+  margin-top: 10px;
+  width: 100%;
+  display: inline-block;
+  border-radius: 4px;
+  vertical-align: top;
+  text-align: center;
+  font-family: "jua";
+}
+@media screen and (min-width: 800px) { .timeline { width: 500px; } }
+#good-list, #good-list th, #good-list td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-size: 20px;
+  width: 650px;
+}
+#good-list img { width: 150px; height: 120px; vertical-align: top; text-align: center;}
+#good-img { width: 280px; display: block; }
+.error-message { color: red; }
+#join-form, #good-form { padding: 10px; text-align: center; }
+footer { text-align: center; }

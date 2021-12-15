@@ -1,0 +1,30 @@
+{
+  "config":{
+    "target": "http://localhost:8010",
+    "phases": [
+      {
+        "duration": 20,
+        "arrivalRate": 10
+      }
+    ]
+  },
+  "scenarios": [{
+    "flow": [{
+      "get": {
+        "url": "/"
+      }
+    }, {
+      "post": {
+        "url": "/auth/login",
+        "json": {
+          "email": "wlsrhkd112@naver.com",
+          "password": "9112323k"
+        }
+      }
+    }, {
+      "get": {
+        "url": "/good?good=상품 등록"
+      }
+    }]
+  }]
+}
