@@ -1,6 +1,6 @@
-# Jukini-Market
+# Jukini-Market 🥒
 ## Collaborator : jingwang-kim
-- Market for direct trade of agricultural products in rural areas.
+- Market for direct trade of agricultural products in rural areas.🍇🍊🍐🍎🥒🥬🌽🥔🥕🧅🧄
 - Create a web server using nodejs.
 - By linking mysql, various records such as user information and product sales activities are managed.
 - Implement it so that users can log in using bcrypt.
