@@ -1,7 +1,7 @@
 # Jukini-Market 🥒
 ### date: 2021.12.01~2021.12.15
 ### collaborator: @jingwang-kim </br>
-🕋 Using python and opencv from Jupyter Lab </br>
+🕋 Using python, nodejs and mysql from VS code </br>
 
 ### <strong>Fresh crop direct market website harvested in rural areas within 24 hours</strong>
 <p>
